@@ -3,9 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fruit Brust</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+    .font-lato{
+        font-family: 'Lato', sans-serif;
+    }
+</style>
+
 </head>
-<body>
+<body class="font-lato my-10 lg:mx-24">
+    <header class="container lg:mx-auto">
+        <nav class="navbar  md:bg-[#F85559]  md:text-white rounded-full p-14 py-4 text-lg justify-between">  
+                <div >
+                    <ul class="md:flex gap-5">
+                        <li><a href="" class="hidden md:inline-block">Home</a></li>
+                        <li><a href=""class="hidden md:inline-block">About US</a></li>
+                        <li><a href=""class="hidden md:inline-block">Shop</a></li>
+                        <li><a href=""class="hidden md:inline-block">All Fruits</a></li>
+
+                    </ul>
+                </div>
+                <div class="  flex gap-5 mx-4s md:gap-5  mx-auto">
+
+                    <div><img src="./images/logo.png" alt="" class="w-7 h-8 md:w-14 md:h-16 "></div>
+                    <div><h2 class=" text-base font-bold md:text-lg ">Fruit Burst</h2></div>
+
+                </div>
+                <div class="hidden lg:inline-block">
+                    <div  class="relative" >
+                        <input class="px-4 py-2 w-60 rounded-full" type="search" name="" id="" placeholder="Search here">
+                        <span class="absolute left-52 top-2 " >
+                          <i class="fa-solid fa-magnifying-glass text-slate-400"></i>
+                        </span>
+                      </div>
+                </div>
+                <div class="flex-none  text-black mr-20 ">
+                <button class="btn btn-square btn-ghost">
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost md:hidden">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </label>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[] rounded-box w-52">
+                            <li><a href="" >Home</a></li>
+                            <li><a href="">About US</a></li>
+                            <li><a href="">Shop</a></li>
+                            <li><a href="">All Fruits</a></li>
+                        </ul>
+                      </div>
+                 </button>
+              </div>
+        </nav>
+
+
+    </header>
+    <main class="container w-auto">
+
+
+    </main>
+    <footer>
+
+    </footer>
     
 </body>
 </html>
